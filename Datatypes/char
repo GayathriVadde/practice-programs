@@ -1,0 +1,9 @@
+class JavaExample
+{
+ public static void main(String[] args)
+  {
+     char='Z';
+     System.out.println(char);
+   }
+ }
+ 
