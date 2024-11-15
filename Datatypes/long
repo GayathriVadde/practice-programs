@@ -1,0 +1,9 @@
+class JavaExample
+{
+ public static void main(String[] args)
+  {
+     long num=-123322526261;
+     System.out.println(num);
+   }
+ }
+ 
