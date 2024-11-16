@@ -1,0 +1,17 @@
+public class JavaExample
+{
+ public static void main(String[]args)
+ {
+   int num1=100;
+   int num2=200;
+//minus(-) unary operator
+   int inverseNum =-num1;
+   System.out.println("Opposite of num1:" +inverseNum);
+// increment
+   num1++;
+//decrement
+   num2--;
+   System.out.println("num1++ is:" +num1);
+   System.out.println("num2-- is:" +num2);
+ }
+}
