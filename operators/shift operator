@@ -1,0 +1,11 @@
+public class JavaExample
+{
+  public static void main(String[] args)
+  {
+    int num=24;
+    //left shift
+    System.out.println("num<<2:" +(num<<2));
+    //right shift
+    System.out.println("num>>2:" +(num>>2));
+  }
+}  
