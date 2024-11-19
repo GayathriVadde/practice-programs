@@ -1,0 +1,21 @@
+-- WHY WE HAVE TO USE THE BREAK STATEMENT:By this example we will understand the importance of break keyword from the output.........
+public class SwitchCaseExample1
+{
+ public static void main(String[] args)
+ {
+   int i=2;
+   switch(i)
+   {
+    case 1:
+     System.out.println("Case 1");
+    case 2:
+     System.out.println("Case 2");
+    case 3:
+     System.out.println("Case 3");
+    case 4:
+     System.out.println("Case 4");
+    default:
+     System.out.println("Default");
+    }
+  }
+ }
