@@ -1,0 +1,26 @@
+-- USING CHARACTERS
+public class SwitchCaseExample3
+{
+ public static void maiin(String[] args)
+ {
+  char ch='g';
+  switch(ch)
+  {
+   case 'a':
+    System.out.println("Case 1");
+    break;
+   case 'b':
+    System.out.println("Case 2");
+    break;
+   case 'c':
+    System.out.println("Case 3");
+    break;
+   case 'g':
+    System.out.println("Case 4");
+    break;
+   default:
+    System.out.println("Default");
+    }
+  }
+}
+    
