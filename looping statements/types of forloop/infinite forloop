@@ -1,0 +1,13 @@
+#THE LOOP NEVER STOPS THE EXECUTION i.e., THE CONDITION NEVER BE FALSE
+
+class ForLoopExample
+{
+ public static void main(String[] args)
+ {
+  for(int i=1;i>=1;i++)
+  {
+   System.out.println("The Value of i is:" +i);
+  }
+ }
+}
+ 
