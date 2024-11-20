@@ -1,0 +1,11 @@
+class JavaExample
+{
+ public static void main(String[] args)
+ {
+  String arr[]={"hi","hello","byte"};
+  for(String str:arr)
+  {
+   System.out.println(str);
+  }
+ }
+}
