@@ -1,0 +1,23 @@
+public class JavaExample
+{
+ public static void main(String[] a)
+ {
+  //declared and initialized a string array
+  String[] fruits=new String[]{"Apple","Orange","Banana"};
+  //we want to add two more elemments to the fruits array.So let's create a new array with the size of 5
+  String[] newFruits=new String[fruits.length+2];
+  //Coping elements from old array to new array
+  for(int i=0;i<fruits.length;i++)
+   {
+    newFruits[i]=fruits[i];
+   }
+   //Adding new elements
+   newFruits[newFruits.length-2]="Mango" //Second last element
+   newFruits[newFruits.length-1]="Kiwi"; //last element
+   //print new array
+   for(String str:newFruits)
+    {
+     System.out.println(str);
+    }
+   }
+  }
