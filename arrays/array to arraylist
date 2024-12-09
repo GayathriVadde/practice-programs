@@ -1,0 +1,21 @@
+import java.util.*;
+public class JavaExample
+{
+ public static void main(String[] a)
+ {
+   //declared and initialized a String array
+   String[] fruits=new String[]{"Apple","Orange","Banana"};
+   //convert the array "fruits" to a ArrayList
+   ArrayList <String> fruitsList=new.ArrayList <String> (Arrays.asList(fruits));
+   //Adding elements to ArrayList
+     fruitList.add("Mango");
+     fruitList.add("Kiwi");
+   //convert the ArrayList to array
+     String[] newFruits=fruitList.toArray(new String[fruitsList.size()]);
+   // print new array
+     for(String str:newfruits)
+     {
+        System.out.println(str);
+     }
+ }
+}
