@@ -1,0 +1,12 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+ //declared and initialized of string array
+ String[] fruits=new String[] {"Apple","Orange","Banana"};
+ for(int i=0;i<fruits.length;i++)
+   {
+    System.out.println("fruits[" +i+ "]:" +fruits[i]);
+   }
+ }
+}
