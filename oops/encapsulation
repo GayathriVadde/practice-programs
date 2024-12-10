@@ -1,0 +1,22 @@
+class EmployeeCount
+{
+ private int numOfEmployee=0;
+ public void setNoOfEmployees(int count)
+ {
+  numOfEmployee=count;
+ }
+ public double getNoOfEmployees()
+ {
+  return numOfEmployees;
+ }
+}
+public class EncapsulationExample
+{
+ public static void main(String[] args)
+ {
+   EmployeeCount obj=new EmployeeCount();
+   obj.setNoOfEmployee(5613);
+   System.out.println("No of Employees:"+(int)obj.getNoOfEmployees());
+ }
+}
+  
