@@ -1,0 +1,27 @@
+class JavaExample
+{
+ String web;
+ JavaExample(String w)
+ { 
+   Web=w;
+ }
+/* This is the copy constructor,it copies the values of one object to
+   the another object(the object that invokes this constructor)*/
+ JavaExample(JavaExample je)
+ {
+   Web=je.Web;
+ }
+void disp()
+{
+  System.out.println("Website:" +web);
+}
+public static void main(String args[])
+ {
+  JavaExample obj1=new JavaExample("BestBook");
+  /*passing the object as an argument to the constructor.This will
+    invoke the copy constructor*/
+  JavaExample obj2=new JavaExample(obj1);
+  obj1.disp();
+  obj2.disp();
+ }
+}
