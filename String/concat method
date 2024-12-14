@@ -1,0 +1,11 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   String str1="Welcome";
+   String str2="Home";
+   System.out.println(str1.concat(" ").concat(str2));
+   /*we can't write like this:str1.concat(str2).Because if we write like this
+     this will consider as a single string only*/
+  }
+}
