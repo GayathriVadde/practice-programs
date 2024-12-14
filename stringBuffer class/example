@@ -1,0 +1,25 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+  //creating stringbuffer object using default constructor
+  StringBuffer sb=new StringBuffer();
+  
+  //appending a string to newly created instance
+  sb.append("BestBook.com");
+  System.out.println("First String:" +sb);
+
+  //using StringBuffer(String str) Constructor
+  String str="hello";
+  StringBuffer sb2=new StringBuffer(str);
+  System.out.println("Second String:" +sb2);
+
+  //using StringBuffer(int capacity) Constructor
+  StringBuffer sb3=new StringBuffer(24);
+  System.out.println("Capacity of sb3:" +sb3.Capacity());
+
+  //creating StringBuffer(Char Sequence cs) Constructor
+  StringBuffer sb4=new StringBuffer("Welcome");
+  System.out.println("Fourth String:" +sb4);
+ }
+}
