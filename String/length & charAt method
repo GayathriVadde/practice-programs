@@ -1,0 +1,15 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   String str="Welcome to BestBook.com";
+   //finding length of the String using length() method
+   int len=str.lrngth();
+   
+   //first character of the String
+   System.out.println("First Character:" +str.charAt(0));
+
+   //last character of the String
+   System.out.println("Last Character:" +str.charAt(len-1));
+ }
+}
