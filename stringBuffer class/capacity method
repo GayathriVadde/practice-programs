@@ -1,0 +1,17 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuffer sb=new StringBuffer();
+   //default capacity 16
+   System.out.println("Current Capacity:"+sb.capacity());
+   //appending string is 8 chars,can be adjusted in current 
+   //capacity.so no capacity increases
+   sb.append("BestBook");
+   System.out.println("Current Capacity:" +sb.capacity());
+   //Need to increase capacity to append this string.
+   // (16*2)+2=34
+   sb.append("Book");
+   System.out.println("Current Capacity:" +sb.capacity()); //34
+ }
+}
