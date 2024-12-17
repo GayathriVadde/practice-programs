@@ -1,0 +1,11 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuffer sb=new StringBuffer("This is Test");
+   //insert "a Sample" string after "is"
+   //index starts with 0.So the index of s is 6
+   sb.insert(8,"a Sample");
+   System.out.println(sb);
+ }
+}
