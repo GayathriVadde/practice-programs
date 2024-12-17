@@ -1,0 +1,9 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuffer sb=new StringBuffer();
+   sb.append("Welcome");
+   System.out.println("Length of String:"+sb.length());
+ }
+}
