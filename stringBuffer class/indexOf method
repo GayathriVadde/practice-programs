@@ -4,6 +4,7 @@ public class JavaExample
  {
   StringBuffer sb=new StringBuffer();
   sb.append("Welcome");
-  System.out.println("Length of String:" +sb.length());
+  System.out.println("String:" +sb);
+  System.out.println("Index of SubString come:" +sb.indexOf("come"));
  }
 }
