@@ -1,0 +1,11 @@
+/*appending----- joining or concatinating*/
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuilder sb=new StringBuilder("Welcome to");
+   //appending specified string at the end of given string
+   sb.append("StoryBook.com");
+   System.out.println(sb);
+ }
+}
