@@ -1,0 +1,9 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuilder sb=new StringBuilder();
+   sb.append("Welcome");
+   System.out.println("Length of String:"+sb.length());
+ }
+}
