@@ -1,0 +1,25 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+  //creating StringBuilder using default constructor
+  StringBuilder sb=new StringBuilder();
+  
+  //appending a string to newly created instance
+  sb.append("BestBook.com");
+  System.out.println("First String:" +sb);
+
+  //using StringBuilder(String str) constructor
+  String str="hello";
+  StringBuilder sb2=new StringBuilder(str);
+  System.out.println("Second String:"+sb2);
+
+  //using StringBuilder(int capacity) constructor
+  StringBuilder sb3=new StringBuilder(24);
+  System.out.println("Capacity of sb3:" +sb3.capacity());
+
+  //creating StringBuilder(char sequence char seq) constructor
+  StringBuilder sb4=new StringBuilder("Welcome");
+  System.out.println("Fourth String:" +sb4);
+ }
+}
