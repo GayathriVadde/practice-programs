@@ -1,0 +1,11 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+  StrinngBuilder sb=new StringBuilder("This is Text");
+  //insert "a Sample" String after "is"
+  //index starts with 0 so the index of s is 6
+  sb.insert(7,"a Sample");
+  System.out.println(sb);
+ }
+}
