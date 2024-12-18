@@ -1,0 +1,11 @@
+public class JavaExample
+{
+  public static void main(String[] args)
+  {
+    StringBuilder sb=new StringBuilder("Book");
+
+    //reverse the String "Book"
+    sb.reverse();
+    System.out.println("Reversal String:"+sb);
+  }
+}
