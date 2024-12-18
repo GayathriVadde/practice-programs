@@ -1,0 +1,10 @@
+public class JavaExample
+{
+ public static void main(String[] args)
+ {
+   StringBuilder sb=new StringBuilder();
+   sb.append("Welcome");
+   System.out.println("String:" +sb);
+   System.out.println("index of SubString come:" +sb.indexOf("come");
+  }
+}
